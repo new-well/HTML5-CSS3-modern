@@ -36,6 +36,7 @@ a:link, a:visited, a:hover, a:active {
 .item .image {
   display: block;
   width: 100%;
+  height: 109px;
 }
 .item .category {
   margin: 15px 9px 10px;
@@ -70,6 +71,19 @@ a:link, a:visited, a:hover, a:active {
   box-shadow: 0 0 6px -1px rgba(0, 0, 0, 0.3);
   opacity: 0.8;
 }
+.item-m {
+  width: 364px;
+}
+.item-l {
+  width: 732px;
+}
+.item-m .image {
+  height: 146px;
+}
+.item-l .image {
+  height: 403px;
+}
+
 /* --------------------------------
  * categorize
  * -------------------------------- */
